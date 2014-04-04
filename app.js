@@ -11,15 +11,15 @@ var config = utils.merge(defaults, overrides);
 
 utils.pp(config);
 
-// var puddle_dsn = config.postgresql.puddle.dsn;
+// var foo_dsn = config.postgresql.foo.dsn;
 
-// db.connect(config.postgresql.puddle.dsn);
+// db.connect(config.postgresql.foo.dsn);
 
 /* console.log("");
 console.log("Configuration".bold.underline);
 console.log("");
 console.log('Node environment: %s', process.env.NODE_ENV.bold);
-console.log('PostgreSQL DSN: %s', config.postgresql.puddle.dsn.bold);
+console.log('PostgreSQL DSN: %s', config.postgresql.foo.dsn.bold);
 console.log('Redis port: %s', config.redis.port.bold);
 console.log('Redis host: %s', config.redis.host.bold);
 console.log('API host: %s', config.api.host.bold);
